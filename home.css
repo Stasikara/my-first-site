@@ -1,0 +1,238 @@
+body {
+     height: auto;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: black;
+    border-radius: 20px 20px 0 0;
+    color: white;
+    margin-bottom: 0px;
+    line-height: 60px;
+    float: left;
+     font-family: "Oswald", sans-serif;
+      border: 1px solid white;
+
+}
+
+.home {
+    height: 150px;
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+     font-size: 200%;
+    
+}
+
+#home_podheader {
+    width: 97%;
+    height: 160px;
+    text-align: left;
+    background-color: lab(0% 0 0 / 0.450);
+    border-radius: 20px 20px 20px 20px;
+    float: left;
+    margin-top: 80px;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    line-height:30px ;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+     animation: podheader 1s ease forwards;
+    font-size: 150%;
+    border: 1px solid rgba(255, 255, 255, 0.322);
+
+    
+}
+
+@keyframes podheader {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#home_podheader .hand {
+ text-decoration: underline;
+
+}
+
+#home_podheader .press {
+ text-decoration: underline;
+
+}
+
+#home_podheader .chest {
+ text-decoration: underline;
+
+}
+
+#home_podheader .back {
+ text-decoration: underline;
+
+}
+
+#home_podheader .legs {
+ text-decoration: underline;
+
+}
+
+#hand {
+    width: 19.5%;
+    height: 300px;
+    text-align: center;
+    background-color: lab(0% 0 0 / 0.450);
+    border-radius: 20px 20px 20px 20px;
+    float: left;
+    margin-top: 10px;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    line-height:300px ;
+    animation: podheader 1.5s ease forwards;
+    font-size: 150%;
+    border: 1px solid rgba(255, 255, 255, 0.322);
+    transition: transform 0.3s ease;
+
+}
+#hand:hover {
+     transform:translateY(-5px);
+     box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.267);
+}
+
+#press {
+    width: 19.5%;
+    height: 300px;
+    text-align: center;
+    background-color: lab(0% 0 0 / 0.450);
+    border-radius: 20px 20px 20px 20px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    line-height:300px ;
+     animation: podheader 2.5s ease forwards;
+    font-size: 150%;
+    border: 1px solid rgba(255, 255, 255, 0.322);
+    transition: transform 0.3s ease;
+
+}
+
+#press:hover{
+     transform:translateY(-5px);
+     box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.267);
+}
+
+#chest {
+    width: 19.5%;
+    height: 300px;
+    text-align: center;
+    background-color: lab(0% 0 0 / 0.450);
+    border-radius: 20px 20px 20px 20px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    line-height:300px ;
+     animation: podheader 3.5s ease forwards;
+    font-size: 150%;
+    border: 1px solid rgba(255, 255, 255, 0.322);
+    transition: transform 0.3s ease;
+
+}
+
+#chest:hover {
+     transform:translateY(-5px);
+     box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.267);
+}
+
+
+#back {
+    width: 19.5%;
+    height: 300px;
+    text-align: center;
+    background-color: lab(0% 0 0 / 0.450);
+    border-radius: 20px 20px 20px 20px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    line-height:300px ;
+     animation: podheader 4.5s ease forwards;
+    font-size: 150%;
+    border: 1px solid rgba(255, 255, 255, 0.322);
+    transition: transform 0.3s ease;
+
+}
+
+#back:hover {
+     transform:translateY(-5px);
+     box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.267);
+}
+
+#legs {
+    width: 19.5%;
+    height: 300px;
+    text-align: center;
+    background-color: lab(0% 0 0 / 0.450);
+    border-radius: 20px 20px 20px 20px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    line-height:300px ;
+     animation: podheader 5.5s ease forwards;
+    font-size: 150%;
+    border: 1px solid rgba(255, 255, 255, 0.322);
+    transition: transform 0.3s ease;
+
+}
+
+#legs:hover {
+     transform:translateY(-5px);
+     box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.267);
+}
+
+#footer {
+     width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    margin-top:20px;
+    line-height: 60px;
+    border-top: 4px solid silver;
+    float:left;
+     font-family: "Oswald", sans-serif;
+     
+}
+
+#contacts {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    line-height: 30px;
+    float: left;
+     font-family: "Oswald", sans-serif;
+     margin-top: auto;
+}
+
+#contacts:hover {
+    background-color: rgb(105, 105, 105);
+}

@@ -1,0 +1,717 @@
+body {
+    height: 2000px;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+}
+
+
+
+
+
+
+
+#header {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: black;
+    border-radius: 20px 20px 0 0;
+    color: white;
+    margin-bottom: 0px;
+    line-height: 60px;
+    float: left;
+     font-family: "Oswald", sans-serif;
+
+}
+
+.home {
+    height: 150px;
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+     font-size: 200%;
+}
+
+.return {
+    width: 10%;
+    height: 100px;
+    background-color:lab(0% 0 0 / 0.450);
+    border-radius: 40px;
+    margin-top: 80px;
+    margin-left: auto;
+    float: left;
+    text-align: center;
+    font-size: 150%;
+    line-height: 100px;
+    font-family: "Oswald", sans-serif;
+    color:white ;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+     animation: return 1s ease forwards;
+      transition: transform 0.3s ease;
+}
+
+
+.return:hover {
+     transform:translateY(-5px);
+     box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.267);
+}
+
+@keyframes return {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+#desc {
+    width: 89.5%;
+    height: 100px;
+    
+    background-color:lab(0% 0 0 / 0.450);
+    border-radius: 40px;
+    margin-top: 80px;
+    float: right;
+    text-align: center;
+    font-size: 150%;
+    line-height: 50px;
+      font-family: "Oswald", sans-serif;
+      color:white ;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+.biceps_head {
+     width: 49.5%;
+    height: 100px ;
+    background-color: lab(0% 0 0 / 0.450);
+    text-align: center;
+    line-height: 100px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 30px;
+    transition: transform 0.3s ease;
+    animation: biceps_head 1s ease forwards;
+    border: 2px solid rgba(238, 241, 40, 0.329);
+     color: white;
+      font-family: "Oswald", sans-serif;
+      font-size: 200%;
+
+}
+
+@keyframes biceps_head {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.triceps_head {
+       width: 49.5%;
+    height: 100px ;
+    background-color: lab(0% 0 0 / 0.450);
+    text-align: center;
+    line-height: 100px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 30px;
+    transition: transform 0.3s ease;
+    animation: triceps_head 1s ease forwards;
+    border: 2px solid rgba(223, 71, 71, 0.329);
+     color: white;
+      font-family: "Oswald", sans-serif;
+      font-size: 200%;
+}
+
+@keyframes triceps_head {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+#main {
+    width: 49.5%;
+    height: 200px ;
+    background-color: lab(0% 0 0 / 0.450);
+    text-align: center;
+    line-height: 200px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 30px;
+    transition: transform 0.3s ease;
+    animation: main 1s ease forwards;
+    border: 1px solid rgba(238, 241, 40, 0.329);
+    
+    
+
+}
+
+@keyframes main {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#main img {
+    height:170px ;
+    width: 150px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#main div {
+     width: 410px;
+     line-height: 35px;
+     float: left;
+     text-align: left;
+     margin-top: 10px;
+     margin-left: 8px;
+     color: white;
+      font-family: "Oswald", sans-serif;
+      font-size: 200%;
+     
+}
+
+#main:hover {
+     transform:translateY(-5px);
+     box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.267);
+     
+}
+
+
+.biceps_underline {
+    text-decoration: underline;
+}
+
+#biceps2 {
+      width: 49.5%;
+    height: 200px ;
+    background-color: lab(0% 0 0 / 0.450);
+    text-align: center;
+    line-height: 200px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+    animation: biceps2 1s ease forwards;
+    border: 1px solid rgba(238, 241, 40, 0.329);
+
+    
+     
+}
+
+@keyframes biceps2 {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+#biceps2 .gif {
+     height:165px ;
+    width: 150px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#biceps2 .biceps2_text {
+         width: 470px;
+     line-height: 25px;
+     float: left;
+     text-align: left;
+     margin-top: 20px;
+     margin-left: 8px;
+     color: white;
+      font-family: "Oswald", sans-serif;
+      font-size: 150%;
+    
+     
+}
+
+
+
+
+.biceps2_underline {
+    text-decoration: underline;
+}
+
+#biceps2:hover {
+     transform:translateY(-5px);
+     box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.267);
+     
+}
+
+#biceps3 {
+      width: 49.5%;
+    height: 200px ;
+    background-color: lab(0% 0 0 / 0.450);
+    text-align: center;
+    line-height: 200px;
+    border-radius: 10px;
+    float: left; 
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+    animation: biceps3 1s ease forwards;
+    border: 1px solid rgba(238, 241, 40, 0.329);
+
+}
+
+@keyframes biceps3 {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+#biceps3 .gif {
+     height:165px ;
+    width: 150px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#biceps3 div{
+         width: 470px;
+     line-height: 30px;
+     float: left;
+     text-align: left;
+     margin-top: 20px;
+     margin-left: 8px;
+     color: white;
+      font-family: "Oswald", sans-serif;
+      font-size: 150%;
+
+}
+
+.biceps3_underline {
+    text-decoration: underline;
+}
+
+#biceps3:hover {
+     transform:translateY(-5px);
+     box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.267);
+     
+}
+
+
+#biceps4 {
+      width: 49.5%;
+    height: 200px ;
+    background-color: lab(0% 0 0 / 0.450);
+    text-align: center;
+    line-height: 200px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+    animation: biceps4 1s ease forwards;
+    border: 1px solid rgba(238, 241, 40, 0.329);
+
+}
+
+@keyframes biceps4 {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#biceps4 .gif {
+     height:165px ;
+    width: 150px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+
+
+#biceps4 div{
+         width: 480px;
+     line-height: 25px;
+     float: left;
+     text-align: left;
+     margin-top: 20px;
+     margin-left: 8px;
+     color: white;
+      font-family: "Oswald", sans-serif;
+      font-size: 150%;
+
+}
+
+.biceps4_underline {
+    text-decoration: underline;
+}
+
+#biceps4:hover {
+     transform:translateY(-5px);
+     box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.267);
+     
+}
+
+
+
+
+#aside {
+    opacity: 0;
+    animation: aside 1s ease forwards;
+    width: 49.5%;
+    height: 200px;
+    text-align: left;
+    float:right;
+    margin-left: 8px;
+    background-color:lab(0% 0 0 / 0.450) ;
+    margin-top:30px ;
+    border-radius: 10px;
+    font-family: "Oswald", sans-serif;
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(223, 71, 71, 0.329);
+   
+}
+
+@keyframes aside {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+#aside .franc {
+    width: 170px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#aside p {
+    width: 465px;
+    font-size: 200%;
+    float: left;
+    margin-left: 8px;
+    margin-top: 10px;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.733);
+    
+}
+
+#aside:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.267);
+}
+
+.franc_underline {
+    text-decoration: underline;
+}
+
+
+#triceps2 {
+     opacity: 0;
+    animation: aside 1s ease forwards;
+    width: 49.5%;
+    height: 200px;
+    text-align: left;
+    float: right;
+    margin-left: 8px;
+    background-color:lab(0% 0 0 / 0.450) ;
+    margin-top:20px ;
+    border-radius: 10px;
+    font-family: "Oswald", sans-serif;
+    animation: triceps2 1s ease forwards;
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(223, 71, 71, 0.329);
+}
+
+
+@keyframes triceps2 {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#triceps2 .gif {
+     height:165px ;
+    width: 150px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#triceps2 div{
+         width: 480px;
+     line-height: 30px;
+     float: left;
+     text-align: left;
+     margin-top: 20px;
+     margin-left: 8px;
+     color: white;
+      font-family: "Oswald", sans-serif;
+      font-size: 150%;
+
+}
+
+.triceps2_underline {
+    text-decoration: underline;
+}
+
+#triceps2:hover {
+     transform:translateY(-5px);
+     box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.267);
+     
+}
+
+
+#triceps3 {
+     opacity: 0;
+    animation: aside 1s ease forwards;
+    width: 49.5%;
+    height: 200px;
+    text-align: left;
+    float: right;
+    margin-left: 8px;
+    background-color:lab(0% 0 0 / 0.450) ;
+    margin-top:20px ;
+    border-radius: 10px;
+    font-family: "Oswald", sans-serif;
+    animation: triceps3 1s ease forwards;
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(223, 71, 71, 0.329);
+}
+
+
+@keyframes triceps3 {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#triceps3 .gif {
+     height:165px ;
+    width: 150px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#triceps3 div{
+         width: 480px;
+     line-height: 30px;
+     float: left;
+     text-align: left;
+     margin-top: 20px;
+     margin-left: 8px;
+     color: white;
+      font-family: "Oswald", sans-serif;
+      font-size: 150%;
+
+}
+
+.triceps3_underline {
+    text-decoration: underline;
+}
+
+#triceps3:hover {
+     transform:translateY(-5px);
+     box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.267);
+     
+}
+
+
+
+#triceps4 {
+     opacity: 0;
+    animation: aside 1s ease forwards;
+    width: 49.5%;
+    height: 200px;
+    text-align: left;
+    float: right;
+    margin-left: 8px;
+    background-color:lab(0% 0 0 / 0.450) ;
+    margin-top:20px ;
+    border-radius: 10px;
+    font-family: "Oswald", sans-serif;
+    animation: triceps4 1s ease forwards;
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(223, 71, 71, 0.329);
+}
+
+
+@keyframes triceps4 {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#triceps4 .gif {
+     height:165px ;
+    width: 150px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#triceps4 div{
+         width: 480px;
+     line-height: 30px;
+     float: left;
+     text-align: left;
+     margin-top: 20px;
+     margin-left: 8px;
+     color: white;
+      font-family: "Oswald", sans-serif;
+      font-size: 150%;
+
+}
+
+.triceps4_underline {
+    text-decoration: underline;
+}
+
+#triceps4:hover {
+     transform:translateY(-5px);
+     box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.267);
+     
+}
+
+
+
+.shoulders_head {
+     width: 49.5%;
+    height: 100px ;
+    background-color: lab(0% 0 0 / 0.450);
+    text-align: center;
+    line-height: 100px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 30px;
+    transition: transform 0.3s ease;
+    animation: shoulders_head 1s ease forwards;
+    border: 2px solid rgba(40, 241, 207, 0.329);
+     color: white;
+      font-family: "Oswald", sans-serif;
+      font-size: 200%;
+
+}
+
+@keyframes shoulders_head {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.forearm_head {
+       width: 49.5%;
+    height: 100px ;
+    background-color: lab(0% 0 0 / 0.450);
+    text-align: center;
+    line-height: 100px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 30px;
+    transition: transform 0.3s ease;
+    animation:forearm_head 1s ease forwards;
+    border: 2px solid rgba(52, 252, 79, 0.329);
+     color: white;
+      font-family: "Oswald", sans-serif;
+      font-size: 200%;
+}
+
+@keyframes forearm_head {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+#footer {
+     width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    margin-top: 1000px;
+    line-height: 60px;
+    border-top: 4px solid silver;
+    float:left;
+     font-family: "Oswald", sans-serif;
+}
+#contacts {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    line-height: 30px;
+    float: left;
+     font-family: "Oswald", sans-serif;
+}
+
+#contacts:hover {
+    background-color: rgb(105, 105, 105);
+}
+
+
