@@ -103,6 +103,7 @@ body {
      color: white;
       font-family: "Oswald", sans-serif;
       font-size: 200%;
+      box-shadow: -2px -2px 3px rgba(255, 252, 53, 0.74);
 
 }
 
@@ -130,6 +131,7 @@ body {
      color: white;
       font-family: "Oswald", sans-serif;
       font-size: 200%;
+      box-shadow: -2px -2px 3px rgba(214, 88, 88, 0.74);
 }
 
 @keyframes triceps_head {
@@ -645,6 +647,7 @@ body {
      color: white;
       font-family: "Oswald", sans-serif;
       font-size: 200%;
+      box-shadow: -2px -2px 3px rgba(40, 241, 207, 0.329);
 
 }
 
@@ -673,6 +676,7 @@ body {
      color: white;
       font-family: "Oswald", sans-serif;
       font-size: 200%;
+      box-shadow: -2px -2px 3px rgba(52, 252, 79, 0.329);
 }
 
 @keyframes forearm_head {
@@ -683,6 +687,529 @@ body {
         opacity: 1;
     }
 }
+
+
+
+
+#shoulders {
+      width: 49.5%;
+    height: 200px ;
+    background-color: lab(0% 0 0 / 0.450);
+    text-align: center;
+    line-height: 200px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+    animation: shoulders 1s ease forwards;
+    border: 1px solid rgba(40, 241, 207, 0.329);
+
+}
+
+@keyframes shoulders {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#shoulders .gif {
+     height:165px ;
+    width: 160px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+
+
+#shoulders div{
+         width: 460px;
+     line-height: 25px;
+     float: left;
+     text-align: left;
+     margin-top: 15px;
+     margin-left: 8px;
+     color: white;
+      font-family: "Oswald", sans-serif;
+      font-size: 110%;
+
+}
+
+.shoulders_underline {
+    text-decoration: underline;
+}
+
+#shoulders:hover {
+     transform:translateY(-5px);
+     box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.267);
+     
+}
+
+
+
+
+
+
+
+
+#shoulders2 {
+      width: 49.5%;
+    height: 200px ;
+    background-color: lab(0% 0 0 / 0.450);
+    text-align: center;
+    line-height: 200px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+    animation: shoulders2 1s ease forwards;
+    border: 1px solid rgba(40, 241, 207, 0.329);
+
+}
+
+@keyframes shoulders2 {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#shoulders2 .gif {
+     height:165px ;
+    width: 160px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+
+
+#shoulders2 div{
+         width: 460px;
+     line-height: 25px;
+     float: left;
+     text-align: left;
+     margin-top: 10px;
+     margin-left: 8px;
+     color: white;
+      font-family: "Oswald", sans-serif;
+      font-size: 120%;
+
+}
+
+.shoulders2_underline {
+    text-decoration: underline;
+}
+
+#shoulders2:hover {
+     transform:translateY(-5px);
+     box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.267);
+     
+}
+
+
+
+
+
+
+
+#shoulders3 {
+      width: 49.5%;
+    height: 200px ;
+    background-color: lab(0% 0 0 / 0.450);
+    text-align: center;
+    line-height: 200px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+    animation: shoulders3 1s ease forwards;
+    border: 1px solid rgba(40, 241, 207, 0.329);
+
+}
+
+@keyframes shoulders3 {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#shoulders3 .gif {
+     height:165px ;
+    width: 160px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+
+
+#shoulders3 div{
+         width: 460px;
+     line-height: 25px;
+     float: left;
+     text-align: left;
+     margin-top: 12px;
+     margin-left: 8px;
+     color: white;
+      font-family: "Oswald", sans-serif;
+      font-size: 130%;
+
+}
+
+.shoulders3_underline {
+    text-decoration: underline;
+}
+
+#shoulders3:hover {
+     transform:translateY(-5px);
+     box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.267);
+     
+}
+
+
+
+
+
+
+
+#shoulders4 {
+      width: 49.5%;
+    height: 200px ;
+    background-color: lab(0% 0 0 / 0.450);
+    text-align: center;
+    line-height: 200px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+    animation: shoulders4 1s ease forwards;
+    border: 1px solid rgba(40, 241, 207, 0.329);
+
+}
+
+@keyframes shoulders4 {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#shoulders4 .gif {
+     height:165px ;
+    width: 160px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+
+
+#shoulders4 div{
+         width: 460px;
+     line-height: 28px;
+     float: left;
+     text-align: left;
+     margin-top: 12px;
+     margin-left: 8px;
+     color: white;
+      font-family: "Oswald", sans-serif;
+      font-size: 135%;
+
+}
+
+.shoulders4_underline {
+    text-decoration: underline;
+}
+
+#shoulders4:hover {
+     transform:translateY(-5px);
+     box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.267);
+     
+}
+
+
+
+
+
+
+
+
+
+#forearm {
+     opacity: 0;
+    animation: aside 1s ease forwards;
+    width: 49.5%;
+    height: 200px;
+    text-align: left;
+    float: right;
+    margin-left: 8px;
+    background-color:lab(0% 0 0 / 0.450) ;
+    margin-top:20px ;
+    border-radius: 10px;
+    font-family: "Oswald", sans-serif;
+    animation: forearm 1s ease forwards;
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(52, 252, 79, 0.329);
+}
+
+
+@keyframes forearm {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#forearm .gif {
+     height:165px ;
+    width: 150px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#forearm div{
+         width: 480px;
+     line-height: 30px;
+     float: left;
+     text-align: left;
+     margin-top: 10px;
+     margin-left: 8px;
+     color: white;
+      font-family: "Oswald", sans-serif;
+      font-size: 150%;
+
+}
+
+.forearm_underline {
+    text-decoration: underline;
+}
+
+#forearm:hover {
+     transform:translateY(-5px);
+     box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.267);
+     
+}
+
+
+
+#forearm2 {
+     opacity: 0;
+    animation: aside 1s ease forwards;
+    width: 49.5%;
+    height: 200px;
+    text-align: left;
+    float: right;
+    margin-left: 8px;
+    background-color:lab(0% 0 0 / 0.450) ;
+    margin-top:20px ;
+    border-radius: 10px;
+    font-family: "Oswald", sans-serif;
+    animation: forearm2 1s ease forwards;
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(52, 252, 79, 0.329);
+}
+
+
+@keyframes forearm2 {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#forearm2 .gif {
+     height:165px ;
+    width: 150px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#forearm2 div{
+         width: 480px;
+     line-height: 30px;
+     float: left;
+     text-align: left;
+     margin-top: 10px;
+     margin-left: 8px;
+     color: white;
+      font-family: "Oswald", sans-serif;
+      font-size: 150%;
+
+}
+
+.forearm2_underline {
+    text-decoration: underline;
+}
+
+#forearm2:hover {
+     transform:translateY(-5px);
+     box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.267);
+     
+}
+
+
+
+
+
+
+
+
+#forearm3 {
+     opacity: 0;
+    animation: aside 1s ease forwards;
+    width: 49.5%;
+    height: 200px;
+    text-align: left;
+    float: right;
+    margin-left: 8px;
+    background-color:lab(0% 0 0 / 0.450) ;
+    margin-top:20px ;
+    border-radius: 10px;
+    font-family: "Oswald", sans-serif;
+    animation: forearm3 1s ease forwards;
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(52, 252, 79, 0.329);
+}
+
+
+@keyframes forearm3 {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#forearm3 .gif {
+     height:165px ;
+    width: 150px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#forearm3 div{
+         width: 480px;
+     line-height: 25px;
+     float: left;
+     text-align: left;
+     margin-top: 10px;
+     margin-left: 8px;
+     color: white;
+      font-family: "Oswald", sans-serif;
+      font-size: 150%;
+
+}
+
+.forearm3_underline {
+    text-decoration: underline;
+}
+
+#forearm3:hover {
+     transform:translateY(-5px);
+     box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.267);
+     
+}
+
+
+
+
+
+
+#forearm4 {
+      width: 49.5%;
+    height: 200px ;
+    background-color: lab(0% 0 0 / 0.450);
+    text-align: center;
+    line-height: 200px;
+    border-radius: 10px;
+    float: right; 
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+    animation: forearm4 1s ease forwards;
+    border: 1px solid rgba(52, 252, 79, 0.329);
+
+}
+
+@keyframes forearm4 {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+#forearm4 .gif {
+     height:165px ;
+    width: 150px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#forearm4 div{
+         width: 470px;
+     line-height: 30px;
+     float: left;
+     text-align: left;
+     margin-top: 20px;
+     margin-left: 8px;
+     color: white;
+      font-family: "Oswald", sans-serif;
+      font-size: 150%;
+
+}
+
+.forearm4_underline {
+    text-decoration: underline;
+}
+
+#forearm4:hover {
+     transform:translateY(-5px);
+     box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.267);
+     
+}
+
+
+
+
+
 
 
 
