@@ -1403,6 +1403,139 @@ body {
 
 
 
+
+
+
+
+
+
+#facts {
+    width: 100%;
+    height: auto;
+    background-color:lab(0% 0 0 / 0.450);
+    border-radius: 40px;
+    margin-top: 20px;
+    float: right;
+    text-align: left;
+    font-size: 150%;
+    line-height: 30px;
+    font-family: "Oswald", sans-serif;
+    color:white ;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+.decorative_facts {
+    width: 600px;
+    height: auto;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 5px;
+    font-size: 300%;
+    line-height: 70px;
+    
+}
+
+
+#facts .text {
+    width: 600px;
+    height: auto;
+    float: right;
+    margin-right: 100px;
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+   
+}
+
+
+.text_decorative{
+    font-size: 125%;
+    text-decoration: underline;
+    
+}
+
+
+
+ #olimpia {
+    width: 490px;
+    height: auto;
+    float: left;
+    margin-left: 50px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.938);
+    transition: transform 0.3s ease;
+    animation: olimpia 1s ease forwards;
+}
+
+@keyframes olimpia {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#olimpia:hover {
+     transform:translateY(-5px);
+     box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.267);
+     
+}
+
+
+
+.the_end {
+   width: 600px;
+    height: 150px;
+    background-color:lab(0% 0 0 / 0.450);
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    float: left;
+    text-align: center;
+    font-size: 150%;
+    line-height: 150px;
+    font-family: "Oswald", sans-serif;
+    color:white ;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+     animation: the_end 1s ease forwards;
+      transition: transform 0.3s ease;}
+
+
+
+.the_end:hover {
+     transform:translateY(-5px);
+     box-shadow: 0 4px 10px 2px rgba(255, 255, 255, 0.267);
+}
+
+@keyframes the_end {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #footer {
      width: 100%;
     height: 60px;
@@ -1410,7 +1543,7 @@ body {
     background-color: black;
     border-radius: 10px;
     color: white;
-    margin-top: 1000px;
+    margin-top: auto;
     line-height: 60px;
     border-top: 4px solid silver;
     float:left;
